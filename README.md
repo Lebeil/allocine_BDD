@@ -1,4 +1,4 @@
-README
+#README
 Maintenant que les 100 entrées sont créées, affiche le tout en console avec table_print (ne mets pas toutes les colonnes). Balade-toi, en scrollant, dans la liste et repère 10 films que tu trouves bien funs (noms improbables, etc.). Pour chacun de ces films tu vas faire comme si tu venais de les visionner :
 
 - Retrouve-les soit via leur id avec Movie.find ou via leur nom avec Movie.find_by(name: "xxx") puis affecte-les à une variable du genre mon_film.
