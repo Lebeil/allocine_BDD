@@ -3,8 +3,9 @@ Maintenant que les 100 entrées sont créées, affiche le tout en console avec t
 
 - Retrouve-les soit via leur id avec Movie.find ou via leur nom avec Movie.find_by(name: "xxx") puis affecte-les à une variable du genre mon_film.
 
+ 	```
  	movie_1 = Movie.find_by(name: 'Titan IX')
- 	movie_2 = Movie.find_by(name: 'Yellow Brain')
+  movie_2 = Movie.find_by(name: 'Yellow Brain')
  	movie_3 = Movie.find_by(name: 'Dark Elektra')
  	movie_4 = Movie.find_by(name: 'Mr Hope Summers')
  	movie_5 = Movie.find_by(name: 'Green Scorpion')
@@ -16,6 +17,7 @@ Maintenant que les 100 entrées sont créées, affiche le tout en console avec t
  	
 - Passe alors leur already_seen en true.
 
+ 	```
  	movie_1.update(already_seen: true)
  	movie_2.update(already_seen: true)
  	movie_3.update(already_seen: true)
@@ -29,6 +31,7 @@ Maintenant que les 100 entrées sont créées, affiche le tout en console avec t
  	
 - Donne leur une note dans my_rating.
 
+ 	```
  	movie_1.update(my_rating: rand(0..5))
  	movie_2.update(my_rating: rand(0..5))
  	movie_3.update(my_rating: rand(0..5))
