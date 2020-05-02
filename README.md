@@ -5,7 +5,7 @@ Maintenant que les 100 entrées sont créées, affiche le tout en console avec t
 
  	```
  	movie_1 = Movie.find_by(name: 'Titan IX')
-  movie_2 = Movie.find_by(name: 'Yellow Brain')
+    movie_2 = Movie.find_by(name: 'Yellow Brain')
  	movie_3 = Movie.find_by(name: 'Dark Elektra')
  	movie_4 = Movie.find_by(name: 'Mr Hope Summers')
  	movie_5 = Movie.find_by(name: 'Green Scorpion')
